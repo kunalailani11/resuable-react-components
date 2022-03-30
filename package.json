@@ -1,11 +1,16 @@
 {
-  "name": "@kunalailani11/reusable_components",
-  "version": "0.1.1",
+  "name": "sample-text-input",
+  "description": "A sample text input react component",
+  "author": "Kunal Ailani",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [ "dist", "README.md" ],
+  "keywords": ["react", "text-input", "text-input-component"],
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/kunalailani11/resuable-react-components.git"
-  },
-  "main": "src/index.js",  
+  },  
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
@@ -16,10 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "rm -rf dist && NODE_ENV=production babel src/components --out-dir dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
