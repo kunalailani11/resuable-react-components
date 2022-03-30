@@ -1,9 +1,8 @@
 {
   "name": "@kunalailani11/reusable_components",
   "version": "0.1.0",
-  "private": true,
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/kunalailani11"
+    "registry": "git://github.com/kunalailani11/resuable-react-components.git"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
