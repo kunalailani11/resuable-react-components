@@ -1,11 +1,11 @@
 ** For learning purpose
 
 ## Installation
-### `npm install simple-text-input`
+### `npm install sample-text-input`
 
 ## Usage
 Import in your component file.
 
-`import { TextInput } from 'simple-text-input'`
+`import { TextInput } from 'sample-text-input'`
 
 `<TextInput />`
