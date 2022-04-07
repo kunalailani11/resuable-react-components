@@ -6,7 +6,7 @@
   "module": "dist/index.js",
   "files": [ "dist", "README.md" ],
   "keywords": ["react", "text-input", "text-input-component"],
-  "version": "1.0.0",
+  "version": "1.0.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/kunalailani11/resuable-react-components.git"
@@ -21,7 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "build": "rm -rf dist && NODE_ENV=production babel src/components --out-dir dist --copy-files"
+    "build": "rmdir /s dist && NODE_ENV=production babel src --out-dir dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
